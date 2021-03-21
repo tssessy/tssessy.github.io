@@ -61,6 +61,14 @@ p {
     color: #cfcfcf;
     opacity: 0.7;
 }
+.quotes {
+    max-width: 100%;
+    position: absolute;
+    top: 0%;
+    right: 10%;
+    width: 110px;
+    height: 110px;
+}
 /*! GRID */
 
 .grid-container {
@@ -89,12 +97,9 @@ p {
     align-items: center;
 }
 .box1 { 
-	grid-area: purplebox;
-    background: url(/images/bg-pattern-quotation.svg);
-    background-repeat: no-repeat;
-    background-position-x: right 7.8rem;
-    background-size: 110px 110px;
+	grid-area: purplebox;  
     background-color: hsl(263, 55%, 52%);
+    position: relative;
 }
 .box2 { 
 	grid-area: graybox; 
