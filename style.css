@@ -90,7 +90,7 @@ grid-area: r;
     position: relative;
 }
 .user .white-radius {
-    background-color: white;
+    background-color: #fff;
     width: 60%;
     height: 15px;
     border-bottom-left-radius: 13px;
